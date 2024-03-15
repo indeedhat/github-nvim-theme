@@ -131,7 +131,7 @@ local function generate_spec(pal)
   local spec = {
     bg0  = alpha(C(pal.canvas.inset), 0.75),            -- Dark bg (popup and float)
     bg1  = pal.canvas.default,                          -- Default bg
-    bg2  = alpha(C(pal.neutral.emphasis), 0.1),         -- Lighter bg (colorcolumn Folds)
+    bg2  = pal.scale.gray[6],                           -- Lighter bg (colorcolumn Folds)
     bg3  = pal.scale.gray[6],                           -- Lighter bg (cursor line)
     bg4  = pal.scale.gray[4],                           -- Conceal
 
